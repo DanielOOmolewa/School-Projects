@@ -1,0 +1,110 @@
+"""
+File:    design1.txt
+Author:  Daniel Omolewa
+Date:    10/18/2019
+Section: 42
+E-mail:  o24@umbc.edu
+Description:
+  This is the design for the baking sim project.
+"""
+#Budget
+STARTING_FUNDS = 80.0
+
+#Cost per packaging unit
+FLOUR_COST_PER_BAG = 2.5
+EGGS_COST_PER_CRATE = 1.9
+YEAST_COST_PER_BAG = 3.25
+BUTTER_COST_PER_PACK = 1.25
+MILK_COST_PER_JUG = 2.75
+
+#Amount per packaging unit
+GALLONS_MILK_PER_JUG = 1.0
+EGGS_PER_CRATE = 24.0
+TBSP_BUTTER_PER_PACK = 64.0
+CUPS_FLOUR_PER_BAG = 25.0
+CUP_YEAST_PER_BAG = 6.0
+
+#Amount of each ingredients required
+FLOUR_REQUIRED = 48.0 + 112.5
+EGGS_REQUIRED = 12.0 + 60.0
+BUTTER_REQUIRED = 144.0
+YEAST_REQUIRED = 39 + 50
+MILK_REQUIRED = 18.0
+
+#Unit conversion
+CUPS_IN_GALLON = 16
+TSP_IN_CUP = 48
+
+INGREDIENTS = ["flour", "eggs", "yeast", "butter", "milk"]
+
+#Word to leave the store
+NOTHING = "NOTHING"
+
+
+def greeting():
+    """
+    Greet the player
+    Tell the player what they need to buy and show the budget
+    #prnt - 
+    :parem: None
+    :return: None
+
+def check_within_budget(shopping_cart):
+    """
+    Check if the cost of ingredients has not exceeded the budget. If the total
+    cost has exceeded the budget, have_lost is true  
+    :parem: shopping_cart
+    :return: None or have_lost
+    """
+    
+def go_shopping():
+    """
+    Welcome the player to the supermarket
+    Initialize num_egg_crates, num_flour_bags, num_butter_packs, num_yeast_bags,
+    and num_milk_jugs as 0
+    Ask the player what they would like to purchase and how much of each item
+    they would like until they wish to stop
+    Update the amount of each ingredient according to the player's input
+    Make sure the player hasn't exceeded the budget
+    :return: num_flour_bags, num_egg_crates, num_yeast_bags, num_butter_packs, and num_milk_jugs
+    """
+
+def check_items_enough(item1, item2, item3, item4, item5):
+    """
+    Convert each ingredient to metric units
+    Check if the items that the user bought are suffcient for baking. If the user
+    didn't buy enough ingredients they lose to game. If they lose the game,
+    reprimand the user and tell them what 
+    :param shopping_cart:
+    :return: None or False
+    """
+
+
+def print_task_list(tasks_remaining):
+    """
+    Print the remaining tasks in the task list
+    Update each time the user chooses one of the tasks
+    :param tasks_remaining:
+    :return:
+    """
+
+
+def is_valid_input(index, tasks):
+    """
+
+    :param index:
+    :param tasks:
+    :return:
+    """
+
+
+def bake():
+    """
+
+    :return:
+    """
+
+
+if __name__ == '__main__':
+   #greeting function
+   #go_shopping function

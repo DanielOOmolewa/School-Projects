@@ -1,0 +1,19 @@
+"""
+File: design2.txt
+Author: Daniel Omolewa
+Date:
+Section: 42
+E-mail: o24@umbc.edu
+Description:
+"""
+
+def get_characters():
+    """
+    Greet both of the players and ask for the characters they would like to use
+    :parem: None
+    :return: player1_char - The character that player 1 chooses to use
+             player2_char - The character that player 2 chooses to use
+    """
+
+
+    
